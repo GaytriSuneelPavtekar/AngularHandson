@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularHandson';
+  public Message: string = ""; 
+  title = 'Test';
+  public str: string = "Hello Child one";
 }
