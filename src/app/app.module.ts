@@ -9,6 +9,7 @@ import { BootstrapdemoComponent } from './bootstrapdemo/bootstrapdemo.component'
 import {AlertModule } from 'ngx-bootstrap/alert';
 import { ChildComponent } from './child/child.component';
 import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.component';
+import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-demo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.componen
     CustomDirectiveDemoDirective,
     BootstrapdemoComponent,
     ChildComponent,
-    TwoWaybindingComponent
+    TwoWaybindingComponent,
+    ClassBindingDemoComponent
   ],
   imports: [
     BrowserModule,
