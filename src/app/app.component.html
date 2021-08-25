@@ -16,8 +16,19 @@
 <app-bootstrapdemo></app-bootstrapdemo>
 <hr>
 
-<h3> Child Parent component communication Demonstration</h3>
+<h3>Child Parent component communication Demonstration</h3>
 <p>Inside Parent</p>
 <app-child [parentData] = "str" (childEvent) = "Message = $event">{{Message}}</app-child>
 {{Message}}
 <hr>
+
+<h3>Style Binding Demonstration</h3>
+<app-style-binding-demo></app-style-binding-demo>
+<hr>
+
+<h3>Two Way binding without ngModel directive</h3>
+<app-two-way-binding-without-ng-model></app-two-way-binding-without-ng-model>
+<hr>
+
+<h3>Calculator Demonstration</h3>
+<app-calculator></app-calculator>
