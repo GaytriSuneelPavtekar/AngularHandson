@@ -1,0 +1,9 @@
+<p>style-binding-demo works!</p>
+<!-- Direct color code binding -->
+<p [style.color]="'red'">Sadashiv Peth</p>
+<!-- Style binding using variable -->
+<p [style.color]='orange'>Narayan Peth</p>
+<!-- Style binding using flag / conditional style binding -->
+<p [style.color]="flag ? 'blue' : 'yellow'">Shukrawar peth</p>
+<!-- ngStle demonstration -->
+<p [ngStyle]="{backgroundColor: getColor()}">Somvar peth</p>
