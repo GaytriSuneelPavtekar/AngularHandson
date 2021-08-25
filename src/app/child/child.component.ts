@@ -10,7 +10,7 @@ export class ChildComponent implements OnInit {
 @Input() public parentData : string = "";
 @Output() public childEvent = new EventEmitter
 public fun(){
-  this.childEvent.emit("hellof rom child");
+  this.childEvent.emit("hello from child");
   console.log('Clicked');
 }
   constructor() { }

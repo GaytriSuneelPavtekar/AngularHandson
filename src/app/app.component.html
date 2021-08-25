@@ -1,18 +1,23 @@
-<h1>Demonstration of Custom Directive</h1>
+<h3> Custom Directive Demonstration</h3>
+<p appCustomDirectiveDemo>Custom Directive Implementation</p>
+<input [(ngModel)]="title">
+{{title}}
+<hr>
 
-<h1 appCustomDirectiveDemo>Test custom directive implementation</h1>
-<input [(ngModel)]="title"> {{title}}
+<h3>Class Binding Demonstration</h3>
+<app-class-binding-demo></app-class-binding-demo>
+<hr>
 
-
-<h2>Two way data binding demo</h2>
+<h3>Two-Way Data Binding Demonstration</h3>
 <app-two-waybinding></app-two-waybinding>
+<hr>
 
-<h2>Bootstrap Demo</h2>
+<h3>Bootstrap Demonstration</h3>
 <app-bootstrapdemo></app-bootstrapdemo>
+<hr>
 
-
-<h1> Child Parent component communication demo</h1>
-<h3>Inside Parent</h3>
+<h3> Child Parent component communication Demonstration</h3>
+<p>Inside Parent</p>
 <app-child [parentData] = "str" (childEvent) = "Message = $event">{{Message}}</app-child>
-
 {{Message}}
+<hr>
