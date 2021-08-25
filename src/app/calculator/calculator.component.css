@@ -1,0 +1,28 @@
+.maindisplay {
+    background: lightgrey;
+    height: 100px;
+    width: 25%;
+    padding: 2% !important;
+    font-size: 15px;
+    text-align: right;
+}
+.subdisplay {
+    border-bottom: 1px solid black;
+}
+.keypad {
+    height: 100px;
+    width: 25%;;  
+}
+
+.keypad  div {
+    display: inline-block;
+    margin: 0;
+    width: 25%;
+    height: 20%;
+    background: whitesmoke;
+    color: black;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}

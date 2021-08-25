@@ -6,12 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomDirectiveDemoDirective } from './custom-directive-demo.directive';
 import { BootstrapdemoComponent } from './bootstrapdemo/bootstrapdemo.component';
-import {AlertModule } from 'ngx-bootstrap/alert';
+import { AlertModule } from 'ngx-bootstrap/alert';
 import { ChildComponent } from './child/child.component';
 import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.component';
 import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-demo.component';
 import { StyleBindingDemoComponent } from './style-binding-demo/style-binding-demo.component';
 import { TwoWayBindingWithoutNgModelComponent } from './two-way-binding-without-ng-model/two-way-binding-without-ng-model.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TwoWayBindingWithoutNgModelComponent } from './two-way-binding-without-
     TwoWaybindingComponent,
     ClassBindingDemoComponent,
     StyleBindingDemoComponent,
-    TwoWayBindingWithoutNgModelComponent
+    TwoWayBindingWithoutNgModelComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
