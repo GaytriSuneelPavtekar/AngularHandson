@@ -1,0 +1,26 @@
+<p>ng-for-demo works!</p>
+<p>Simple demo with array</p>
+
+<p>Demo with object</p>
+<ul *ngFor='let item of items'>
+    <li>{{item.name}}</li>
+    <li>{{item.age}}</li>
+    <li>{{item.city}}</li>
+</ul>
+
+<p>Demo with indexing</p>
+<ul *ngFor='let item of items; let num = index'>
+    <li>{{num+1}}</li>
+    <li>{{item.name}}</li>
+    <li>{{item.age}}</li>
+    <li>{{item.city}}</li>
+</ul>
+
+<p>Demo with nested array list</p>
+<ul *ngFor="let item of list">
+    <li>{{item.city}}</li>
+    <ul *ngFor='let value of item.people'>
+        <li>{{value.name}}</li>
+        <li>{{value.age}}</li>
+    </ul>
+</ul>

@@ -13,6 +13,7 @@ import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-de
 import { StyleBindingDemoComponent } from './style-binding-demo/style-binding-demo.component';
 import { TwoWayBindingWithoutNgModelComponent } from './two-way-binding-without-ng-model/two-way-binding-without-ng-model.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { NgForDemoComponent } from './ng-for-demo/ng-for-demo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
     ClassBindingDemoComponent,
     StyleBindingDemoComponent,
     TwoWayBindingWithoutNgModelComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    NgForDemoComponent
   ],
   imports: [
     BrowserModule,
