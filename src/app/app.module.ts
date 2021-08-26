@@ -13,6 +13,10 @@ import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-de
 import { StyleBindingDemoComponent } from './style-binding-demo/style-binding-demo.component';
 import { TwoWayBindingWithoutNgModelComponent } from './two-way-binding-without-ng-model/two-way-binding-without-ng-model.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { NgForDemoComponent } from './ng-for-demo/ng-for-demo.component';
+import { FirstComponentComponent } from './first-component/first-component.component';
+import { SecondComponentComponent } from './second-component/second-component.component';
+import { FunctionCallByStringInterpolationComponent } from './function-call-by-string-interpolation/function-call-by-string-interpolation.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { CalculatorComponent } from './calculator/calculator.component';
     ClassBindingDemoComponent,
     StyleBindingDemoComponent,
     TwoWayBindingWithoutNgModelComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    NgForDemoComponent,
+    FirstComponentComponent,
+    SecondComponentComponent,
+    FunctionCallByStringInterpolationComponent
   ],
   imports: [
     BrowserModule,
