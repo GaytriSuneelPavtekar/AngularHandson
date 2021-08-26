@@ -17,6 +17,8 @@ import { NgForDemoComponent } from './ng-for-demo/ng-for-demo.component';
 import { FirstComponentComponent } from './first-component/first-component.component';
 import { SecondComponentComponent } from './second-component/second-component.component';
 import { FunctionCallByStringInterpolationComponent } from './function-call-by-string-interpolation/function-call-by-string-interpolation.component';
+import { EventBindingDemoComponent } from './event-binding-demo/event-binding-demo.component';
+import { StringCaseConversionComponent } from './string-case-conversion/string-case-conversion.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { FunctionCallByStringInterpolationComponent } from './function-call-by-s
     NgForDemoComponent,
     FirstComponentComponent,
     SecondComponentComponent,
-    FunctionCallByStringInterpolationComponent
+    FunctionCallByStringInterpolationComponent,
+    EventBindingDemoComponent,
+    StringCaseConversionComponent
   ],
   imports: [
     BrowserModule,
