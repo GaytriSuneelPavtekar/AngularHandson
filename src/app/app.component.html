@@ -54,3 +54,8 @@
 <h3>String case conversion using event binding</h3>
 <app-string-case-conversion></app-string-case-conversion>
 <hr>
+
+<h3>Inter component communication Demonstration</h3>
+<app-inter-component-communication [name] = 'stringForChild' (childToParentEvent)="Message=$event"></app-inter-component-communication>
+{{Message}}
+<hr>

@@ -9,4 +9,5 @@ export class AppComponent {
   public Message: string = ""; 
   title = 'Test';
   public str: string = "Hello Child one";
+  public stringForChild : string = 'Hello from Parent component';
 }
