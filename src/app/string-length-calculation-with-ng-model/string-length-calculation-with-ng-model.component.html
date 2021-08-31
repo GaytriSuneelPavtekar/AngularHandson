@@ -1,0 +1,8 @@
+<p>string-length-calculation-with-ng-model works!</p>
+<input type="text" [(ngModel)]='name'>
+<p>Name: {{name}}</p>
+<p>Length of Name: {{name.length}}</p>
+
+<p>string-length-calculation-without-ng-model works!</p>
+<input type="text" (keydown)='onkeydown()'>
+<p>Name: {{count}}</p>

@@ -58,4 +58,9 @@
 <h3>Inter component communication Demonstration</h3>
 <app-inter-component-communication [name] = 'stringForChild' (childToParentEvent)="Message=$event"></app-inter-component-communication>
 {{Message}}
+{{messageFromChild}}
+<hr>
+
+<h3>String length calculation with ngModel</h3>
+<app-string-length-calculation-with-ng-model></app-string-length-calculation-with-ng-model>
 <hr>
