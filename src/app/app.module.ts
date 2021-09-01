@@ -19,6 +19,11 @@ import { SecondComponentComponent } from './second-component/second-component.co
 import { FunctionCallByStringInterpolationComponent } from './function-call-by-string-interpolation/function-call-by-string-interpolation.component';
 import { EventBindingDemoComponent } from './event-binding-demo/event-binding-demo.component';
 import { StringCaseConversionComponent } from './string-case-conversion/string-case-conversion.component';
+import { InterComponentCommunicationComponent } from './Assignments/inter-component-communication/inter-component-communication.component';
+import { StringLengthCalculationWithNgModelComponent } from './string-length-calculation-with-ng-model/string-length-calculation-with-ng-model.component';
+import { ServiceDemoComponent } from './Assignment/service-demo/service-demo.component';
+import { ServiceDemo2Component } from './Assignment/service-demo2/service-demo2.component';
+import { ServiceDemo3Component } from './Assignment/service-demo3/service-demo3.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,12 @@ import { StringCaseConversionComponent } from './string-case-conversion/string-c
     SecondComponentComponent,
     FunctionCallByStringInterpolationComponent,
     EventBindingDemoComponent,
-    StringCaseConversionComponent
+    StringCaseConversionComponent,
+    InterComponentCommunicationComponent,
+    StringLengthCalculationWithNgModelComponent,
+    ServiceDemoComponent,
+    ServiceDemo2Component,
+    ServiceDemo3Component
   ],
   imports: [
     BrowserModule,

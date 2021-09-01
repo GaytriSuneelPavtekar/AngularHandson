@@ -8,7 +8,7 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class ChildComponent implements OnInit {
 @Input() public parentData : string = "";
-@Output() public childEvent = new EventEmitter
+@Output() public childEvent = new EventEmitter();
 public fun(){
   this.childEvent.emit("hello from child");
   console.log('Clicked');
