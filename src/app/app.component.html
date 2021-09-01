@@ -46,3 +46,27 @@
 <h3>Function call using string interpolation Demonstration</h3>
 <app-function-call-by-string-interpolation></app-function-call-by-string-interpolation>
 <hr>
+
+<h3>Event Binding Demo</h3>
+<app-event-binding-demo></app-event-binding-demo>
+<hr>
+
+<h3>String case conversion using event binding</h3>
+<app-string-case-conversion></app-string-case-conversion>
+<hr>
+
+<h3>Inter component communication Demonstration</h3>
+<app-inter-component-communication [name] = 'stringForChild' (childToParentEvent)="Message=$event"></app-inter-component-communication>
+{{Message}}
+{{messageFromChild}}
+<hr>
+
+<h3>String length calculation with ngModel</h3>
+<app-string-length-calculation-with-ng-model></app-string-length-calculation-with-ng-model>
+<hr>
+
+<h3>Service and Dependancy Injection Demonstration</h3>
+<app-service-demo></app-service-demo>
+<app-service-demo2></app-service-demo2>
+<app-service-demo3></app-service-demo3>
+<hr>

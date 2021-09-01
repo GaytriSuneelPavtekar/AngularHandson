@@ -1,0 +1,7 @@
+<p>inter-component-communication works!</p>
+<p>Parent to Child communication: Message from parent : {{name}}</p>
+
+<div class="w-50">
+<p>Child to Parent communication</p>
+<input class="form-control w-50" [(ngModel)]=messageToParent>
+<button class="btn btn-primary" (click)=submitToParent(messageToParent)>Click Me</button></div>
