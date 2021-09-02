@@ -24,6 +24,12 @@ import { StringLengthCalculationWithNgModelComponent } from './string-length-cal
 import { ServiceDemoComponent } from './Assignment/service-demo/service-demo.component';
 import { ServiceDemo2Component } from './Assignment/service-demo2/service-demo2.component';
 import { ServiceDemo3Component } from './Assignment/service-demo3/service-demo3.component';
+import { StringService } from './Assignment/string.service';
+import { ArithmeticServiceService } from './Assignment/arithmetic-service.service';
+import { NumberService } from './Assignment/number.service';
+import { ClassListComponent } from './LectureHandson/HttpAndObservables/class-list/class-list.component';
+import { ClassDetailsComponent } from './LectureHandson/HttpAndObservables/class-details/class-details.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -46,15 +52,22 @@ import { ServiceDemo3Component } from './Assignment/service-demo3/service-demo3.
     StringLengthCalculationWithNgModelComponent,
     ServiceDemoComponent,
     ServiceDemo2Component,
-    ServiceDemo3Component
+    ServiceDemo3Component,
+    ClassListComponent,
+    ClassDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    StringService,
+    NumberService,
+    ArithmeticServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
