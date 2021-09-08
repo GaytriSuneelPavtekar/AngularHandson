@@ -1,0 +1,25 @@
+.contact-headline {
+    font-size: 20px;
+}
+.form-label {
+    font-size: 12px;;
+}
+.sub-label {
+    font-size: 10px;
+}
+.required {
+    color: red;
+}
+.main-headline {
+    font-size: 31px;
+    padding-top: 55px;
+    font-weight: 600;
+}
+.contact {
+    color: darkmagenta;
+}
+.submit-btn {
+    background-color: darkmagenta;
+    height: 50px;
+    font-size: 20px;
+}
