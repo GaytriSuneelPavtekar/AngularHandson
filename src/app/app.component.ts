@@ -12,4 +12,12 @@ export class AppComponent {
   public stringForChild : string = 'Hello from Parent component';
 
   @Input() public messageFromChild : string = '';
+
+  public routerList = [
+    { path : '/first', name: 'Go to First'},
+    { path : '/second', name: 'Go to Second'},
+    { path : '/technology', name: 'Go to List of Technologies'},
+    { path : '/books', name: 'Go to List of Books'}
+  ]
+
 }
