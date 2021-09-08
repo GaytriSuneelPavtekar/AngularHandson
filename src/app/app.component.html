@@ -1,3 +1,11 @@
+<div class="container w-50">
+    <h3>Bootstrap form designing Demonstration</h3>
+    <!-- <app-bootstrap-parent-form></app-bootstrap-parent-form> -->
+    <app-form-designing></app-form-designing>
+</div>
+<hr>
+
+
 <h3> Custom Directive Demonstration</h3>
 <p appCustomDirectiveDemo>Custom Directive Implementation</p>
 <input [(ngModel)]="title">
@@ -18,7 +26,7 @@
 
 <h3>Child Parent component communication Demonstration</h3>
 <p>Inside Parent</p>
-<app-child [parentData] = "str" (childEvent) = "Message = $event">{{Message}}</app-child>
+<app-child [parentData]="str" (childEvent)="Message = $event">{{Message}}</app-child>
 {{Message}}
 <hr>
 
@@ -56,7 +64,8 @@
 <hr>
 
 <h3>Inter component communication Demonstration</h3>
-<app-inter-component-communication [name] = 'stringForChild' (childToParentEvent)="Message=$event"></app-inter-component-communication>
+<app-inter-component-communication [name]='stringForChild' (childToParentEvent)="Message=$event">
+</app-inter-component-communication>
 {{Message}}
 {{messageFromChild}}
 <hr>
@@ -74,4 +83,13 @@
 <h3>Http service & Observables</h3>
 <app-class-list></app-class-list>
 <app-class-details></app-class-details>
+<hr>
+
+<h3>Angular Routing Demonstration</h3>
+<nav>
+    <nav *ngFor='let route of routerList'>
+        <a routerLink={{route.path}}>{{route.name}}</a>
+    </nav>
+</nav>
+<router-outlet></router-outlet>
 <hr>

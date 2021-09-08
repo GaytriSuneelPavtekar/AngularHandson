@@ -30,6 +30,17 @@ import { NumberService } from './Assignment/number.service';
 import { ClassListComponent } from './LectureHandson/HttpAndObservables/class-list/class-list.component';
 import { ClassDetailsComponent } from './LectureHandson/HttpAndObservables/class-details/class-details.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './Assignment/BootstapFormDemo/header/header.component';
+import { PersonalInfoComponent } from './Assignment/BootstapFormDemo/personal-info/personal-info.component';
+import { BugInfoComponent } from './Assignment/BootstapFormDemo/bug-info/bug-info.component';
+import { FooterComponent } from './Assignment/BootstapFormDemo/footer/footer.component';
+import { BootstrapParentFormComponent } from './Assignment/BootstapFormDemo/bootstrap-parent-form/bootstrap-parent-form.component';
+import { FormDesigningComponent } from './Assignment/BootstrapFormDemo2/form-designing/form-designing.component';
+import { FirstComponent } from './LectureHandson/AngularRouting/first/first.component';
+import { SecondComponent } from './LectureHandson/AngularRouting/second/second.component';
+import { InvalidComponent } from './LectureHandson/AngularRouting/invalid/invalid.component';
+import { TechnologyComponent } from './Assignment/AngularRoutingAssignment/technology/technology.component';
+import { BookListComponent } from './Assignment/AngularRoutingAssignment/book-list/book-list.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +65,18 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ServiceDemo2Component,
     ServiceDemo3Component,
     ClassListComponent,
-    ClassDetailsComponent
+    ClassDetailsComponent,
+    HeaderComponent,
+    PersonalInfoComponent,
+    BugInfoComponent,
+    FooterComponent,
+    BootstrapParentFormComponent,
+    FormDesigningComponent,
+    FirstComponent,
+    SecondComponent,
+    InvalidComponent,
+    TechnologyComponent,
+    BookListComponent
   ],
   imports: [
     BrowserModule,
