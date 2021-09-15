@@ -41,6 +41,12 @@ import { SecondComponent } from './LectureHandson/AngularRouting/second/second.c
 import { InvalidComponent } from './LectureHandson/AngularRouting/invalid/invalid.component';
 import { TechnologyComponent } from './Assignment/AngularRoutingAssignment/technology/technology.component';
 import { BookListComponent } from './Assignment/AngularRoutingAssignment/book-list/book-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialDesignDemoComponent } from './LectureHandson/material-design-demo/material-design-demo.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -76,14 +82,20 @@ import { BookListComponent } from './Assignment/AngularRoutingAssignment/book-li
     SecondComponent,
     InvalidComponent,
     TechnologyComponent,
-    BookListComponent
+    BookListComponent,
+    MaterialDesignDemoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatButtonModule,
+    MatIconModule,
+    MatDividerModule,
     FormsModule,
     AlertModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule
   ],
   providers: [
     StringService,
