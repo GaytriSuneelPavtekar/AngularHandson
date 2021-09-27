@@ -47,6 +47,10 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { PipeDemonstrationPipe } from './LectureHandson/pipe-demonstration.pipe';
+import { AdditionPipe } from './Assignment/addition.pipe';
+import { MultiplicationPipe } from './Assignment/multiplication.pipe';
+import { NumberCheckPipe } from './Assignment/number-check.pipe';
 
 @NgModule({
   declarations: [
@@ -83,7 +87,11 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     InvalidComponent,
     TechnologyComponent,
     BookListComponent,
-    MaterialDesignDemoComponent
+    MaterialDesignDemoComponent,
+    PipeDemonstrationPipe,
+    AdditionPipe,
+    MultiplicationPipe,
+    NumberCheckPipe
   ],
   imports: [
     BrowserModule,
