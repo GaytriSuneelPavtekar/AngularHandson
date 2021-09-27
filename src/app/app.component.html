@@ -96,6 +96,28 @@
 
 <div class="container w-50">
     <h3>Angular material design Demonstration</h3>
-<app-material-design-demo></app-material-design-demo>
+    <app-material-design-demo></app-material-design-demo>
 </div>
+<hr>
+
+<h3>Custom pipe demonstration</h3>
+String pipe demonstration:
+<br>
+Input String: {{stringForCustomPipe}}
+<br>
+Output: {{stringForCustomPipe | pipeDemonstration}}
+<br>
+Addition pipe demonstration: {{8 | addition : 3}}
+<br>
+Multiplication pipe demonstration: {{7 | multiplication : 3}}
+<br>
+Check different types of numbers:
+<br>
+{{6 | numberCheck : 'Odd'}}
+<br>
+{{6 | numberCheck : 'Even'}}
+<br>
+{{6 | numberCheck : 'Prime'}}
+<br>
+{{6 | numberCheck : 'Perfect'}}
 <hr>

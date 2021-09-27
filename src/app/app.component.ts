@@ -10,6 +10,7 @@ export class AppComponent {
   public str: string = "Hello Child one";
   public Message: string = ""; 
   public stringForChild : string = 'Hello from Parent component';
+  public stringForCustomPipe : string = 'Infosystem';
 
   @Input() public messageFromChild : string = '';
 
